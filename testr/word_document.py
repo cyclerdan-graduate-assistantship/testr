@@ -55,7 +55,7 @@ class WordDocument(object):
             for comment_file in testr.comment_files:
                 feedback_document.add_paragraph(File.get_text_from_file(comment_file), None)
             feedback_document.add_page_break()
-            feedback_document.add_paragraph(File.get_text_from_file(testr.path_to_source_file), None)
+            feedback_document.add_paragraph(File.get_text_from_file(testr.pathToFileForWordDoc), None)
             feedback_document.add_page_break()
             for compile_shell_output in testr.list_of_compile_shell_outputs:
                 feedback_document.add_paragraph(compile_shell_output.output, None)
@@ -77,7 +77,7 @@ class WordDocument(object):
             for comment_file in testr.comment_files:
                 feedback_document.write(File.get_text_from_file(comment_file))
             feedback_document.write("\n\n")
-            feedback_document.write(File.get_text_from_file(testr.path_to_source_file))
+            feedback_document.write(File.get_text_from_file(testr.pathToFileForWordDoc))
             feedback_document.write("\n\n")
             for compile_shell_output in testr.list_of_compile_shell_outputs:
                 feedback_document.write(compile_shell_output.output)

@@ -12,6 +12,8 @@ class TestrConfiguration(object):
         self._source_file_name = ""
         self._alternate_source_file_names = []
         self._test_file_name = ""
+        self.fileForWordDoc = ""
+        self.pathToFileForWordDoc = ""
         self._use_source_file_as_test_file = False
         self._test_cases = []
         self._test_input_from_cli = False
@@ -40,8 +42,9 @@ class TestrConfiguration(object):
         self.test_input_from_cli = False
         if args[6].lower()[:1] == "y":
             self.test_input_from_cli = True
-
-        # self.home_selection = UserInput.prompt_home()
+        self.fileForWordDoc = args[6]
+        self.pathToFileForWordDoc = self.working_directory + '/' + self.fileForWordDoc
+# self.home_selection = UserInput.prompt_home()
         # self.working_directory = UserInput.prompt_working_directory()
         # self.source_file_name = UserInput.prompt_source_file_name()
         # self.alternate_source_file_names = UserInput.prompt_alternate_source_file_names()
@@ -175,6 +178,8 @@ class Testr(object):
         self._comment_files = self._find_comment_files()
         self._path_to_source_file = self._find_path_to_source_file()
         self._path_to_test_file = self._find_path_to_test_file()
+        self.fileForWordDoc = ""
+        self.pathToFileForWordDoc = self.working_directory + '/' + self.fileForWordDoc
         self._compiled_successfully = False;
         self._run_successfully = False;
         self._list_of_compile_shell_outputs = []
@@ -301,6 +306,34 @@ class Testr(object):
     @path_to_test_file.deleter
     def path_to_test_file (self):
         del self._path_to_test_file
+
+    # fileForWordDoc
+    @property
+    def fileForWordDoc(self):
+        """I'm the 'path_to_test_file' property."""
+        return self._fileForWordDoc
+
+    @fileForWordDoc.setter
+    def fileForWordDoc(self, value):
+        self._fileForWordDoc = value
+
+    @fileForWordDoc.deleter
+    def fileForWordDoc(self):
+        del self._fileForWordDoc
+
+    # pathToFileForWordDoc
+    @property
+    def pathToFileForWordDoc(self):
+        """I'm the 'path_to_test_file' property."""
+        return self._pathToFileForWordDoc
+
+    @pathToFileForWordDoc.setter
+    def pathToFileForWordDoc(self, value):
+        self._pathToFileForWordDoc = value
+
+    @pathToFileForWordDoc.deleter
+    def pathToFileForWordDoc(self):
+        del self._pathToFileForWordDoc
 
     # C O M P I L E D _ S U C C E S S F U L L Y
     @property
