@@ -64,7 +64,8 @@ class WordDocument(object):
             feedback_document.save(testr.working_directory + '/Feedback.docx')
             if not testr.testr_configuration.test_input_from_cli and len(testr.testr_configuration.test_cases) > 0:
                 os.remove(testr.working_directory + '/out.txt')
-        except Exception:
+        except Exception as e:
+            print(e)
             created_feedback_document_successfully = False
         return created_feedback_document_successfully
 
@@ -87,5 +88,6 @@ class WordDocument(object):
             if not testr.testr_configuration.test_input_from_cli and len(testr.testr_configuration.test_cases) > 0:
                 os.remove(testr.working_directory + '/out.txt')
         except Exception:
+            print(Exception)
             created_feedback_document_successfully = False
         return created_feedback_document_successfully

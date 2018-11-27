@@ -178,7 +178,6 @@ class Testr(object):
         self._comment_files = self._find_comment_files()
         self._path_to_source_file = self._find_path_to_source_file()
         self._path_to_test_file = self._find_path_to_test_file()
-        self.fileForWordDoc = ""
         self.pathToFileForWordDoc = self.working_directory + '/' + self.fileForWordDoc
         self._compiled_successfully = False;
         self._run_successfully = False;
