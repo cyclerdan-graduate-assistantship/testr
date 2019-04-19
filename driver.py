@@ -9,7 +9,7 @@ def driver():
     for subDirectories, directories, files in os.walk(testr_configuration.working_directory):
         for directory in directories:
             testr = Testr(testr_configuration, testr_configuration.working_directory + '/' + directory.title())
-            if len(testr.comment_files) > 0:
+            if (len(testr.comment_files) > 0) or True:
                 if testr.path_to_source_file != "":
                     if testr.path_to_test_file != "":
                     	if not testr.compiled_successfully:

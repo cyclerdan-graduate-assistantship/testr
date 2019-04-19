@@ -12,9 +12,6 @@ public class Die {
    
    private int faceValue;           // current value showing on the die
 
-   private int next = 0;
-   private int[] fv = {4,3,3,1,4,4,3,1,4,3,4,2,2,4,1,5,4,3,6,6,1,1,5,4,3,2,5,3,4,4,1,1};
-   //private int[] fv = {5,1,2,3,5,2,1,2,4,3,3,3,3,5,6,3,5,5,6,3,3,2,5,5,1};
    //-----------------------------------------------------------------
    //  Constructor: Sets the initial face value.
    //-----------------------------------------------------------------
@@ -26,12 +23,7 @@ public class Die {
    //  Mutator: Rolls the Die thus changing its state and face value.
    //-----------------------------------------------------------------
    public void roll() {
-      //faceValue = (int)(Math.random() * MAX) + 1;
-      if(next == fv.length) {
-         next = 0;
-      }
-      faceValue = fv[next];
-      next = next + 1;
+      faceValue = (int)(Math.random() * MAX) + 1;
    }
 
    //-----------------------------------------------------------------
