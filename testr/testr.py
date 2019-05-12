@@ -48,7 +48,7 @@ class TestrConfiguration(object):
         # self.test_file_name = UserInput.prompt_test_file_name()
         # if self.test_file_name.strip() == "":
         #     self.use_source_file_as_test_file = True
-        # self.test_cases = UserInput.prompt_test_cases()
+        # self.test_cases = UserInput.prompt_test_cases() tc1.txt
         # self.test_input_from_cli = False
         # if UserInput.prompt_test_input_from_cli().lower()[:1] == "y":
         #     self.test_input_from_cli = True

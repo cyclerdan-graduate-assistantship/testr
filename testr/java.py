@@ -1,3 +1,4 @@
+
 from .shell import *
 from .file import File
 
@@ -15,14 +16,22 @@ class Java(object):
         run_file_name = File.remove_extension_from_file_name(File.remove_path_from_file_name(run_file_path))
         print("running the java program")
         if input_file_path is None:
-            shell_command = ['exec java -classpath ' + run_file_directory_path + ' ' + run_file_name]
+            shell_command = ['exec java -classpath ' + run_file_directory_path + ' ' + run_file_name + ' ' + 'States1.txt']
+            print('shell_command' + shell_command)
+            print('\n')
             run_result = Shell.execute_shell_command(shell_command=shell_command, use_shell=True)
         else:
             if get_input_from_command_line:
-                shell_command = 'exec java -classpath ' + run_file_directory_path + '/ ' + run_file_name + ' ' + File().get_text_from_file(input_file_path)
+                shell_command = 'exec java -classpath ' + run_file_directory_path + '/ ' + run_file_name + ' ' + 'States1.txt' + ' ' + File().get_text_from_file(input_file_path)
+                print('shell_command' + shell_command)
+                print('\n')
                 run_result = Shell.execute_shell_command(shell_command, True)
             else:
-                shell_command = 'exec java -classpath ' + run_file_directory_path + '/ ' + run_file_name + ' < ' + input_file_path + ' > ' + run_file_directory_path + '/out.txt'
+                shell_command = 'exec java -classpath ' + run_file_directory_path + '/ ' + run_file_name + ' ' +run_file_directory_path + '../' + 'States1.txt' + ' < ' + input_file_path + ' > ' + run_file_directory_path + '/out.txt'
+                print('input file path' + input_file_path)
+                print('\n')
+                print('shell_command' + shell_command)
+                print('\n')
                 run_result = Shell.execute_shell_command(shell_command, True)
                 run_result.output = File().get_text_from_file(run_file_directory_path + 'out.txt')
         return run_result
