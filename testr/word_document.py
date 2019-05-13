@@ -31,7 +31,7 @@ class WordDocument(object):
             interleave_string = interleave_string[index_of_prompt_string + len(prompt_string):]
             interleave_string = interleave_string
             if interleave_error:
-                # result = "ERROR -> Problem interleaving input into results, perhaps an invalid prompt string was used\n\n" + result
+                result = "ERROR -> Problem interleaving input into results, perhaps an invalid prompt string was used\n\n" + result
                 if test_case:
                     result = test_case[0] + "\n\n" + result
         return result;
