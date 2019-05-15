@@ -26,6 +26,7 @@ class Java(object):
                 print('shell_command' + shell_command)
                 print('\n')
                 run_result = Shell.execute_shell_command(shell_command, True)
+                print(run_result.output)
             else:
                 shell_command = 'exec java -classpath ' + run_file_directory_path + '/ ' + run_file_name + ' ' +run_file_directory_path + '../' + 'States1.txt' + ' < ' + input_file_path + ' > ' + run_file_directory_path + '/out.txt'
                 print('input file path' + input_file_path)
@@ -33,5 +34,7 @@ class Java(object):
                 print('shell_command' + shell_command)
                 print('\n')
                 run_result = Shell.execute_shell_command(shell_command, True)
+
                 run_result.output = File().get_text_from_file(run_file_directory_path + 'out.txt')
+                print(run_result.output)
         return run_result
