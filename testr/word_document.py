@@ -61,6 +61,33 @@ class WordDocument(object):
                 feedback_document.add_paragraph(compile_shell_output.output, None)
             for run_shell_output in testr.list_of_run_shell_outputs:
                 feedback_document.add_paragraph(run_shell_output.output, None)
+            pathToSourceFile = testr.path_to_source_file
+            lastSlashLocation = pathToSourceFile.rfind('/')
+            studentDirectory = pathToSourceFile[0:lastSlashLocation]
+            sourceFile0 = studentDirectory + "/Temperatures.java"
+            sourceFile1 = studentDirectory + "/TemperaturesI1.java"
+            sourceFile2 = studentDirectory + "/TemperaturesI2.java"
+            sourceFile3 = studentDirectory + "/TemperaturesI3.java"
+            try:
+                feedback_document.add_paragraph(File.get_text_from_file(sourceFile0), None)
+                feedback_document.add_page_break()
+            except Exception:
+                print(Exception)
+            try:
+                feedback_document.add_paragraph(File.get_text_from_file(sourceFile1), None)
+                feedback_document.add_page_break()
+            except Exception:
+                print(Exception)
+            try:
+                feedback_document.add_paragraph(File.get_text_from_file(sourceFile2), None)
+                feedback_document.add_page_break()
+            except Exception:
+                print(Exception)
+            try:
+                feedback_document.add_paragraph(File.get_text_from_file(sourceFile3), None)
+                feedback_document.add_page_break()
+            except Exception:
+                print(Exception)
             feedback_document.save(testr.working_directory + '/Feedback.docx')
             if not testr.testr_configuration.test_input_from_cli and len(testr.testr_configuration.test_cases) > 0:
                 os.remove(testr.working_directory + '/out.txt')
@@ -86,6 +113,8 @@ class WordDocument(object):
             feedback_document.close(testr.working_directory + '/Feedback.docx')
             if not testr.testr_configuration.test_input_from_cli and len(testr.testr_configuration.test_cases) > 0:
                 os.remove(testr.working_directory + '/out.txt')
+            # print(testr.path_to_source_file)
+            # feedback_document.write(File.get_text_from_file(testr.path_to_source_file))
         except Exception:
             created_feedback_document_successfully = False
         return created_feedback_document_successfully
