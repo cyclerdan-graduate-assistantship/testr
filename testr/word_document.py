@@ -68,6 +68,7 @@ class WordDocument(object):
             sourceFile1 = studentDirectory + "/TemperaturesI1.java"
             sourceFile2 = studentDirectory + "/TemperaturesI2.java"
             sourceFile3 = studentDirectory + "/TemperaturesI3.java"
+            feedback_document.add_page_break()
             try:
                 feedback_document.add_paragraph(File.get_text_from_file(sourceFile0), None)
                 feedback_document.add_page_break()
