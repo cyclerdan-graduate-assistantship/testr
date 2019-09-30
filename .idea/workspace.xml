@@ -85,7 +85,8 @@
       <workItem from="1569098605664" duration="5559000" />
       <workItem from="1569196065848" duration="4449000" />
       <workItem from="1569200566192" duration="193000" />
-      <workItem from="1569247103947" duration="1905000" />
+      <workItem from="1569247103947" duration="4935000" />
+      <workItem from="1569863465354" duration="211000" />
     </task>
     <task id="LOCAL-00001" summary="Adjusted the script for assignment 2 fall 2019. The assignment was about temperatures. I made it so the script appends additional source programs to th end of the feedback document for each student.">
       <created>1569200684127</created>
@@ -94,7 +95,14 @@
       <option name="project" value="LOCAL" />
       <updated>1569200684127</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Adjusted the script for assignment 2 fall 2019. The assignment was about temperatures. I made it so the script appends additional source programs to th end of the feedback document for each student.">
+      <created>1569250688896</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1569250688896</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -118,6 +126,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="Adjusted the script for assignment 2 fall 2019. The assignment was about temperatures. I made it so the script appends additional source programs to th end of the feedback document for each student." />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/testr$driver.coverage" NAME="driver Coverage Results" MODIFIED="1569247409407" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/testr$driver.coverage" NAME="driver Coverage Results" MODIFIED="1569275637286" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

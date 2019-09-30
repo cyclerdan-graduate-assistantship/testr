@@ -64,8 +64,7 @@ class WordDocument(object):
             pathToSourceFile = testr.path_to_source_file
             lastSlashLocation = pathToSourceFile.rfind('/')
             studentDirectory = pathToSourceFile[0:lastSlashLocation]
-            sourceFile0 = studentDirectory + "/Temperatures.java"
-            sourceFile1 = studentDirectory + "/TemperaturesI1.java"
+            # sourceFile0 = studentDirectory + "/Temperatures.java"
             sourceFile2 = studentDirectory + "/TemperaturesI2.java"
             sourceFile3 = studentDirectory + "/TemperaturesI3.java"
             feedback_document.add_page_break()
