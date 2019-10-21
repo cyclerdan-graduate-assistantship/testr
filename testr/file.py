@@ -38,7 +38,8 @@ class File(object):
         for file_name in list_of_file_names:
             new_list_of_file_names.append(cls.remove_path_from_file_name(file_name=file_name))
         return new_list_of_file_names
-
+    #
+    # This method really gets the file name from a path
     @classmethod
     def get_path_from_file_name(cls, file_name):
         file_path = file_name[:file_name.rfind('/') + 1]
