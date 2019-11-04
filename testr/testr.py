@@ -15,6 +15,12 @@ class TestrConfiguration(object):
         self._use_source_file_as_test_file = False
         self._test_cases = []
         self._test_input_from_cli = False
+        self.allSourceFiles = []
+    def addSourceFile(self, sourceFile):
+        # print('this is the source file '+ sourceFile)
+        self.allSourceFiles.append(str(sourceFile))
+    def getSourceFiles(self):
+        return self.allSourceFiles
     def splitTestCases(self, test_cases):
             return [test_case for test_case in test_cases.split()]
     def splitAlternateFileNames(self, alternate_source_file_names):
@@ -175,8 +181,8 @@ class Testr(object):
         self._comment_files = self._find_comment_files()
         self._path_to_source_file = self._find_path_to_source_file()
         self._path_to_test_file = self._find_path_to_test_file()
-        self._compiled_successfully = False;
-        self._run_successfully = False;
+        self._compiled_successfully = False
+        self._run_successfully = False
         self._list_of_compile_shell_outputs = []
         self._list_of_run_shell_outputs = []
         self._run_test()

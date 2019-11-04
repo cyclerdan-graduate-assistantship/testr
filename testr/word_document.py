@@ -55,8 +55,10 @@ class WordDocument(object):
             for comment_file in testr.comment_files:
                 feedback_document.add_paragraph(File.get_text_from_file(comment_file), None)
             feedback_document.add_page_break()
-            print("THis is the file where the code is being copied from: " + testr.path_to_source_file)
+            # print("THis is the file where the code is being copied from: " + testr.path_to_source_file)
             feedback_document.add_paragraph(File.get_text_from_file(testr.path_to_source_file), None)
+            testr.testr_configuration.addSourceFile(File.get_text_from_file(testr.path_to_source_file))
+            # print("source added")
             feedback_document.add_page_break()
             for compile_shell_output in testr.list_of_compile_shell_outputs:
                 feedback_document.add_paragraph(compile_shell_output.output, None)

@@ -15,6 +15,11 @@ def driver():
                     	if not testr.compiled_successfully:
                             Screen.PrintInColor.yellow(message="WARNING -> Compiler error(s) on file(s) in '" + File.remove_path_from_file_name(testr.working_directory) + "'")
                     	if WordDocument.assemble_feedback_document(testr=testr, directory_of_template=testr_configuration.working_directory + '/Feedback.docx'):
+                            # print(len(testr.testr_configuration.getSourceFiles()))
+                            for i in range(0, len(testr.testr_configuration.allSourceFiles)):
+                                count = testr.testr_configuration.allSourceFiles.count(testr.testr_configuration.allSourceFiles[i])
+                            # print("This is the number of source files processed: "+ str(len(testr.testr_configuration.getSourceFiles())))
+                            # print('This is the count' + str(count))
                             Screen.PrintInColor.green(message="SUCCESS -> successfully tested '" + File.remove_path_from_file_name(testr.working_directory) + "'\n")
                     	else:
                             Screen.PrintInColor.red(message="ERROR -> Problem creating feedback document in '" + File.remove_path_from_file_name(testr.working_directory) + "'\n")
