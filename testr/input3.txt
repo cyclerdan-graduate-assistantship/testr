@@ -1,0 +1,80 @@
+George Walter Hoskins
+18641015
+5
+CMPS134 3 A
+ENGL101 3 A
+PSYC235 3 A
+MATH114 4 A
+ACC251 3 A
+Sylvanus Blanchard Newton
+18681204
+4
+CMPS134 3 A-
+MUSIC432 3 A-
+ART114 3 A-
+HIST257 3 A-
+Samuel Alexander Boyle
+18761030
+3
+CMPS134 3 B+
+T/RS101 3 B+
+MATH221 4 B+
+William Nelson Golden
+18680831
+2
+CMPS134 3 B
+MATH142 4 B
+Daniel Alden Reed
+18750915
+1
+CMPS134 3 B-
+Thomas Francis Fennell
+18750525
+1
+CMPS134 3 C+
+William Marshall Hollenback
+18860222
+1
+CMPS134 3 C
+John Coffey Hollenback
+18840910
+1
+CMPS134 3 C-
+Richard Harlow
+18891019
+1
+CMPS134 3 D+
+Hugo Francis Bezdek
+18840401
+1
+CMPS134 3 D
+Robert Higgins
+18931124
+1
+CMPS134 3 F
+Fred Bedenk
+18970714
+1
+CMPS134 3 A
+Charles Engle
+19060326
+2
+CMPS134 3 A-
+MATH123 3 B
+Joseph Vincent Paterno
+19261221
+7
+CMPS134 3 A
+MATH114 4 A
+PHYS140 3 A
+BIOL142 3 A
+CHEM112 3 A
+PHIL120 3 A
+PSYC110 3 A-
+William James O'Brien
+19691023
+0
+James Geoffrey Franklin
+19720202
+1
+CMPS134 3 A-
