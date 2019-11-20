@@ -13,7 +13,7 @@ class Java(object):
     def run(cls, run_file_path, get_input_from_command_line=False, input_file_path=None):
         run_file_directory_path = File.get_path_from_file_name(run_file_path)
         run_file_name = File.remove_extension_from_file_name(File.remove_path_from_file_name(run_file_path))
-        run_file_name = 'DateConversionTesterV2'
+        run_file_name = 'BaseballGameClient'
         # print("running the java program")
         if input_file_path is None:
             shell_command = ['exec java -classpath ' + run_file_directory_path + ' ' + run_file_name]

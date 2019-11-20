@@ -2,11 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0a882516-4d29-4a2d-a344-69eb63df01f2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/1952WSG5_BDatNYY.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExtraH.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExtraV.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SimpleH.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SimpleV.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/one.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/two.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/driver.py" beforeDir="false" afterPath="$PROJECT_DIR$/driver.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testr/shell.py" beforeDir="false" afterPath="$PROJECT_DIR$/testr/shell.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testr/testr.py" beforeDir="false" afterPath="$PROJECT_DIR$/testr/testr.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testr/word_document.py" beforeDir="false" afterPath="$PROJECT_DIR$/testr/word_document.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testr/java.py" beforeDir="false" afterPath="$PROJECT_DIR$/testr/java.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,7 +24,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="AS04Fall2019DateConversion" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -67,7 +71,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/driver.py" />
-      <option name="PARAMETERS" value="&quot;/mnt/hgfs/MyDocuments/GraduateAssistantship/Fall2019/ComputerScience1AssignmentGrading/AS04Final3/AS04Final&quot; &quot;DateConverters.java&quot; &quot;&quot; &quot;&quot; &quot;tc0.txt tc1.txt tc2.txt tc3.txt tc4.txt tc5.txt&quot; &quot;y&quot;" />
+      <option name="PARAMETERS" value="&quot;/mnt/hgfs/MyDocuments/GraduateAssistantship/Fall2019/ComputerScience1AssignmentGrading/AS06Part1/AS06_1&quot; &quot;BaseballGame.java&quot; &quot;&quot; &quot;&quot; &quot;tc0.txt tc1.txt tc2.txt tc3.txt tc4.txt tc5.txt tc6.txt&quot; &quot;y&quot;" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
@@ -97,6 +101,7 @@
       <workItem from="1569863841609" duration="1313000" />
       <workItem from="1570113667038" duration="1417000" />
       <workItem from="1571506598323" duration="18421000" />
+      <workItem from="1574017027681" duration="4790000" />
     </task>
     <task id="LOCAL-00001" summary="Current version of script">
       <created>1571700339375</created>
@@ -137,6 +142,6 @@
     </watches-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/testr$driver.coverage" NAME="driver Coverage Results" MODIFIED="1571713919266" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/testr$driver.coverage" NAME="driver Coverage Results" MODIFIED="1574021474937" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
