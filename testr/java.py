@@ -6,14 +6,18 @@ class Java(object):
 
     @classmethod
     def compile(cls, file_path):
+        # run_file_name = 'DieBlackJackCompetitionClient'
+        # shell_command = ['javac', '-classpath', File().get_path_from_file_name(file_name=file_path), File().get_path_from_file_name(file_name=file_path)+run_file_name]
+        # Shell.execute_shell_command(shell_command=shell_command, use_shell=False)
         shell_command = ['javac', '-classpath', File().get_path_from_file_name(file_name=file_path), file_path]
+
         return Shell.execute_shell_command(shell_command=shell_command, use_shell=False)
 
     @classmethod
     def run(cls, run_file_path, get_input_from_command_line=False, input_file_path=None):
         run_file_directory_path = File.get_path_from_file_name(run_file_path)
         run_file_name = File.remove_extension_from_file_name(File.remove_path_from_file_name(run_file_path))
-        run_file_name = 'BaseballGameClient'
+        run_file_name = 'DieBlackJackCompetitionClient'
         # print("running the java program")
         if input_file_path is None:
             shell_command = ['exec java -classpath ' + run_file_directory_path + ' ' + run_file_name]

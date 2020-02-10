@@ -2,15 +2,44 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0a882516-4d29-4a2d-a344-69eb63df01f2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/1952WSG5_BDatNYY.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExtraH.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExtraV.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SimpleH.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SimpleV.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/one.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/two.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fid.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/random_11_7.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/random_1_21.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/random_2_21.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/random_5_11.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/random_5_21.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/##Log.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1952WSG5_BDatNYY.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DDMMYYYY.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DDMMYYYY.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DDMonYYYY.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DDMonYYYY.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DayMonthYear.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DayMonthYear.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Die.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Die.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExtraH.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExtraV.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MMDDYYYY.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MMDDYYYY.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MonthDayYear.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MonthDayYear.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SimpleH.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SimpleV.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YYYYMMDD.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YYYYMMDD.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/one.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sources.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tc0.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tc1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tc2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tc3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tc4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tc5.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/testr/java.py" beforeDir="false" afterPath="$PROJECT_DIR$/testr/java.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/two.txt" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -71,7 +100,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/driver.py" />
-      <option name="PARAMETERS" value="&quot;/mnt/hgfs/MyDocuments/GraduateAssistantship/Fall2019/ComputerScience1AssignmentGrading/AS06Part1/AS06_1&quot; &quot;BaseballGame.java&quot; &quot;&quot; &quot;&quot; &quot;tc0.txt tc1.txt tc2.txt tc3.txt tc4.txt tc5.txt tc6.txt&quot; &quot;y&quot;" />
+      <option name="PARAMETERS" value="&quot;/mnt/hgfs/MyDocuments/GraduateAssistantship/Fall2019/ComputerScience1AssignmentGrading/AS08Final/AS08Full/&quot; &quot;DieBlackJackCompetition.java&quot; &quot;&quot; &quot;&quot; &quot;tc0.txt tc1.txt tc2.txt tc3.txt tc4.txt&quot; &quot;y&quot;" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
@@ -101,7 +130,13 @@
       <workItem from="1569863841609" duration="1313000" />
       <workItem from="1570113667038" duration="1417000" />
       <workItem from="1571506598323" duration="18421000" />
-      <workItem from="1574017027681" duration="4790000" />
+      <workItem from="1574017027681" duration="4971000" />
+      <workItem from="1575335811627" duration="3273000" />
+      <workItem from="1575488220051" duration="1326000" />
+      <workItem from="1575756816066" duration="4819000" />
+      <workItem from="1576343772365" duration="1019000" />
+      <workItem from="1576430718912" duration="3359000" />
+      <workItem from="1576435968015" duration="2995000" />
     </task>
     <task id="LOCAL-00001" summary="Current version of script">
       <created>1571700339375</created>
@@ -110,7 +145,14 @@
       <option name="project" value="LOCAL" />
       <updated>1571700339378</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Current version of script">
+      <created>1574287755420</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1574287755420</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -135,6 +177,25 @@
     <option name="LAST_COMMIT_MESSAGE" value="Current version of script" />
   </component>
   <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/testr/java.py</url>
+          <line>22</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/testr/java.py</url>
+          <line>27</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/testr/java.py</url>
+          <line>31</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
     <watches-manager>
       <configuration name="PythonConfigurationType">
         <watch expression="testr" />
@@ -142,6 +203,6 @@
     </watches-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/testr$driver.coverage" NAME="driver Coverage Results" MODIFIED="1574021474937" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/testr$driver.coverage" NAME="driver Coverage Results" MODIFIED="1576438013000" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
