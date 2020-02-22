@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="be5eb625-5103-43cd-8414-09ce1b42c66c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testr/testr.py" beforeDir="false" afterPath="$PROJECT_DIR$/testr/testr.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,12 +22,16 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1T8BL7DL8SnG53Z2zxTGyHS3619" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/venv2" />
@@ -89,7 +93,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582396401625</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="fixed the y2k problem">
+      <created>1582398154717</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1582398154717</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -109,8 +120,10 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Changed the path to the java compiler" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changed the path to the java compiler" />
+    <MESSAGE value="fixed the y2k problem" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed the y2k problem" />
   </component>
   <component name="WindowStateProjectService">
     <state x="418" y="183" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582395501060">
@@ -125,30 +138,30 @@
       <screen x="0" y="0" width="1920" height="1053" />
     </state>
     <state x="732" y="277" width="424" height="479" key="FileChooserDialogImpl/0.0.1920.1053@0.0.1920.1053" timestamp="1582395031662" />
-    <state width="1899" height="281" key="GridCell.Tab.0.bottom" timestamp="1582396289119">
+    <state width="1899" height="281" key="GridCell.Tab.0.bottom" timestamp="1582398168509">
       <screen x="0" y="0" width="1920" height="1053" />
     </state>
-    <state width="1899" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1053@0.0.1920.1053" timestamp="1582396289119" />
-    <state width="1899" height="281" key="GridCell.Tab.0.center" timestamp="1582396289117">
+    <state width="1899" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1053@0.0.1920.1053" timestamp="1582398168509" />
+    <state width="1899" height="281" key="GridCell.Tab.0.center" timestamp="1582398168508">
       <screen x="0" y="0" width="1920" height="1053" />
     </state>
-    <state width="1899" height="281" key="GridCell.Tab.0.center/0.0.1920.1053@0.0.1920.1053" timestamp="1582396289117" />
-    <state width="1899" height="281" key="GridCell.Tab.0.left" timestamp="1582396289115">
+    <state width="1899" height="281" key="GridCell.Tab.0.center/0.0.1920.1053@0.0.1920.1053" timestamp="1582398168508" />
+    <state width="1899" height="281" key="GridCell.Tab.0.left" timestamp="1582398168508">
       <screen x="0" y="0" width="1920" height="1053" />
     </state>
-    <state width="1899" height="281" key="GridCell.Tab.0.left/0.0.1920.1053@0.0.1920.1053" timestamp="1582396289115" />
-    <state width="1899" height="281" key="GridCell.Tab.0.right" timestamp="1582396289117">
+    <state width="1899" height="281" key="GridCell.Tab.0.left/0.0.1920.1053@0.0.1920.1053" timestamp="1582398168508" />
+    <state width="1899" height="281" key="GridCell.Tab.0.right" timestamp="1582398168508">
       <screen x="0" y="0" width="1920" height="1053" />
     </state>
-    <state width="1899" height="281" key="GridCell.Tab.0.right/0.0.1920.1053@0.0.1920.1053" timestamp="1582396289117" />
+    <state width="1899" height="281" key="GridCell.Tab.0.right/0.0.1920.1053@0.0.1920.1053" timestamp="1582398168508" />
     <state x="464" y="160" key="SettingsEditor" timestamp="1582395119045">
       <screen x="0" y="0" width="1920" height="1053" />
     </state>
     <state x="464" y="160" key="SettingsEditor/0.0.1920.1053@0.0.1920.1053" timestamp="1582395119045" />
-    <state x="555" y="250" width="800" height="546" key="Vcs.Push.Dialog.v2" timestamp="1582396494024">
+    <state x="555" y="250" width="800" height="546" key="Vcs.Push.Dialog.v2" timestamp="1582398157752">
       <screen x="0" y="0" width="1920" height="1053" />
     </state>
-    <state x="555" y="250" width="800" height="546" key="Vcs.Push.Dialog.v2/0.0.1920.1053@0.0.1920.1053" timestamp="1582396494024" />
+    <state x="555" y="250" width="800" height="546" key="Vcs.Push.Dialog.v2/0.0.1920.1053@0.0.1920.1053" timestamp="1582398157752" />
     <state x="643" y="353" key="com.intellij.ide.util.TipDialog" timestamp="1582396137720">
       <screen x="0" y="0" width="1920" height="1053" />
     </state>
