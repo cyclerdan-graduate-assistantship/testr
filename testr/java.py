@@ -6,7 +6,7 @@ class Java(object):
 
     @classmethod
     def compile(cls, file_path):
-        shell_command = ['javac', '-classpath', File().get_path_from_file_name(file_name=file_path), file_path]
+        shell_command = ['/shared/jdk-13.0.2/bin/javac', '-classpath', File().get_path_from_file_name(file_name=file_path), file_path]
         return Shell.execute_shell_command(shell_command=shell_command, use_shell=False)
 
     @classmethod
