@@ -35,7 +35,7 @@ RUNTIME ARGUMENTS
 1. Name of directory containing student files
 2. Primary file to be run in student directories
 3. Alternate names of the file in 2 in student folders (space-separated)
-4. ??
+4. Name of testing file (usually not used)
 5. Names of test case files (space-separated)
 6. Feed as command line arguments (y or n)
 
