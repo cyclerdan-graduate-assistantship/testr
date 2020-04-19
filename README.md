@@ -28,6 +28,15 @@ If, when checking the newly generated feedback documents you get an error saying
 
 ERROR -> Problem interleaving input into results, perhaps an invalid prompt string was used
 
-This means that an incorrect prompt was used for getting input. The default input prompt is “:>”. 
+This means that an incorrect prompt was used for getting input. The default input prompt is “:>”.
+
+
+RUNTIME ARGUMENTS
+1. Name of directory containing student files
+2. Primary file to be run in student directories
+3. Alternate names of the file in 2 in student folders (space-separated)
+4. ??
+5. Names of test case files (space-separated)
+6. Feed as command line arguments (y or n)
 
 
