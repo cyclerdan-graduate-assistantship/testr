@@ -42,3 +42,7 @@ RUNTIME ARGUMENTS
 COPY EMPTY.JAVA TO EACH FOLDER (WINDOWS)
 1. Go to the folder directory
 2. for /d %d in (./*) do fsutil file createnew ./%d/Empty.java 0
+
+SEARCH FOR ALTERNATE FILE NAMES (WINDOWS)
+1. Go to the folder directory
+2. dir *.java /s
