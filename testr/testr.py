@@ -182,7 +182,7 @@ class Testr(object):
         self._run_test()
 
     def _find_comment_files(self):
-        return File.get_files_in_directory(directory=self.working_directory, file_extension='txt', file_name='201*')
+        return File.get_files_in_directory(directory=self.working_directory, file_extension='txt', file_name='202*')
 
     def _find_path_to_source_file(self):
         path_to_source_file = ""

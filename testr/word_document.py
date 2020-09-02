@@ -38,6 +38,7 @@ class WordDocument(object):
 
     @classmethod
     def assemble_feedback_document(cls, testr, directory_of_template):
+        print(testr.working_directory)
         created_feedback_document_successfully = True;
         try:
             copyfile(directory_of_template, testr.working_directory + '/Feedback.docx')
@@ -56,15 +57,18 @@ class WordDocument(object):
                 feedback_document.add_paragraph(File.get_text_from_file(comment_file), None)
             feedback_document.add_page_break()
             feedback_document.add_paragraph(File.get_text_from_file(testr.path_to_source_file), None)
-            feedback_document.add_page_break()
-            for compile_shell_output in testr.list_of_compile_shell_outputs:
-                feedback_document.add_paragraph(compile_shell_output.output, None)
-            for run_shell_output in testr.list_of_run_shell_outputs:
-                feedback_document.add_paragraph(run_shell_output.output, None)
+            print(testr.list_of_compile_shell_outputs[0].output)
+            if len(testr.list_of_compile_shell_outputs) > 0 and testr.list_of_compile_shell_outputs[0].output != '':
+                feedback_document.add_page_break()
+                for compile_shell_output in testr.list_of_compile_shell_outputs:
+                    feedback_document.add_paragraph(compile_shell_output.output, None)
+                for run_shell_output in testr.list_of_run_shell_outputs:
+                    feedback_document.add_paragraph(run_shell_output.output, None)
             feedback_document.save(testr.working_directory + '/Feedback.docx')
             if not testr.testr_configuration.test_input_from_cli and len(testr.testr_configuration.test_cases) > 0:
                 os.remove(testr.working_directory + '/out.txt')
-        except Exception:
+        except Exception as e:
+            print(e)
             created_feedback_document_successfully = False
         return created_feedback_document_successfully
 

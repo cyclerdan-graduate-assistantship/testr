@@ -30,7 +30,8 @@ class File(object):
     @classmethod
     def remove_path_from_file_name(cls, file_name):
         new_file_name = file_name[file_name.rfind('/') + 1:]
-        return new_file_name
+        new_new_file_name = new_file_name[new_file_name.rfind('\\') + 1:]
+        return new_new_file_name
 
     @classmethod
     def remove_path_from_file_names_in_list(cls, list_of_file_names):
