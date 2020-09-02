@@ -39,4 +39,6 @@ RUNTIME ARGUMENTS
 5. Names of test case files (space-separated)
 6. Feed as command line arguments (y or n)
 
-
+COPY EMPTY.JAVA TO EACH FOLDER (WINDOWS)
+1. Go to the folder directory
+2. for /d %d in (./*) do fsutil file createnew ./%d/Empty.java 0
