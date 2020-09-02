@@ -355,5 +355,5 @@ class Testr(object):
         self._list_of_run_shell_outputs = value
 
     @list_of_run_shell_outputs.deleter
-    def list_of_run_shell_outputs (self):
+    def list_of_run_shell_outputs(self):
         del self._list_of_run_shell_outputs

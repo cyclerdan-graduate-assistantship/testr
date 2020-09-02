@@ -12,11 +12,9 @@ def driver():
     for subDirectories, directories, files in os.walk(testr_configuration.working_directory):
         for directory in directories:
             testr = Testr(testr_configuration, testr_configuration.working_directory + '/' + directory.title())
-            testr.path_to_source_file=File.get_files_in_directory(directory=testr_configuration.working_directory+'/'+directory.title(), file_extension='docx');
-            print(testr.path_to_source_file)
             if (len(testr.comment_files) > 0) or True:
                 if testr.path_to_source_file != "":
-                    if testr.path_to_test_file == "":
+                    if testr.path_to_test_file != "":
                     	if not testr.compiled_successfully:
                             Screen.PrintInColor.yellow(message="WARNING -> Compiler error(s) on file(s) in '" + File.remove_path_from_file_name(testr.working_directory) + "'")
                     	if WordDocument.assemble_feedback_document(testr=testr, directory_of_template=testr_configuration.working_directory + '/Feedback.docx'):

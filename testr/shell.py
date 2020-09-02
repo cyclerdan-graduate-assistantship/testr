@@ -39,6 +39,7 @@ class Shell(object):
 
     @classmethod
     def execute_shell_command(cls, shell_command, use_shell):
+        print(shell_command)
         try:
             result = subprocess.check_output(shell_command, stderr=subprocess.STDOUT, shell=use_shell, timeout=5, universal_newlines=True)
             return ShellOutput(result, True)
