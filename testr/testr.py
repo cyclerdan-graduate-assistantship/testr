@@ -227,7 +227,7 @@ class Testr(object):
             for test_case in self.testr_configuration.test_cases:
                 run_results.append(Java.run(run_file_path=self.path_to_test_file, get_input_from_command_line=self.testr_configuration.test_input_from_cli, input_file_path=self.testr_configuration.working_directory + '/' + test_case))
                 # if self.testr_configuration.use_source_file_as_test_file:
-                run_results[-1].output = WordDocument.interleave_io(run_results[-1].output, ':', File.get_text_from_file(self.testr_configuration.working_directory + '/' + test_case))
+                run_results[-1].output = WordDocument.interleave_io(run_results[-1].output, ':>', File.get_text_from_file(self.testr_configuration.working_directory + '/' + test_case))
         else:
             run_results.append(Java.run(run_file_path=self.path_to_test_file))
         return run_results
