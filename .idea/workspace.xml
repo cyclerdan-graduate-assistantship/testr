@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="be5eb625-5103-43cd-8414-09ce1b42c66c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Feedback.docx" beforeDir="false" afterPath="$PROJECT_DIR$/Feedback.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testr/word_document.py" beforeDir="false" afterPath="$PROJECT_DIR$/testr/word_document.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -75,7 +77,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/driver.py" />
-      <option name="PARAMETERS" value="&quot;D:/JackowitzTesting/Fall2020/Quiz02v1&quot; &quot;Quiz02v1.java&quot; &quot;a&quot; &quot;&quot; &quot;tc0.txt&quot; &quot;n&quot;" />
+      <option name="PARAMETERS" value="&quot;D:/JackowitzTesting/Fall2020/Quiz02v1&quot; &quot;Quiz02v1.java&quot; &quot;&quot; &quot;&quot; &quot;tc0.txt&quot; &quot;n&quot;" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
@@ -120,7 +122,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599066766827</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Changes for Windows branch">
+      <created>1600212781913</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1600212781913</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
