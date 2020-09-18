@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="be5eb625-5103-43cd-8414-09ce1b42c66c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Feedback.docx" beforeDir="false" afterPath="$PROJECT_DIR$/Feedback.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testr/testr.py" beforeDir="false" afterPath="$PROJECT_DIR$/testr/testr.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/testr/word_document.py" beforeDir="false" afterPath="$PROJECT_DIR$/testr/word_document.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -77,7 +77,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/driver.py" />
-      <option name="PARAMETERS" value="&quot;D:/JackowitzTesting/Fall2020/Quiz02v1&quot; &quot;Quiz02v1.java&quot; &quot;&quot; &quot;&quot; &quot;tc0.txt&quot; &quot;n&quot;" />
+      <option name="PARAMETERS" value="&quot;D:/JackowitzTesting/Fall2020/Quiz02v2&quot; &quot;Quiz02v2.java&quot; &quot;&quot; &quot;&quot; &quot;tc0.txt&quot; &quot;n&quot;" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />

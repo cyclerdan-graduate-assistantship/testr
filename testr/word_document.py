@@ -63,8 +63,8 @@ class WordDocument(object):
                 feedback_document.add_paragraph(File.get_text_from_file(comment_file), None)
             feedback_document.add_page_break()
 
-            quiz_doc = docx.Document(testr.working_directory + '/Quiz02v1.docx')
-            # quiz_doc = docx.Document(testr.working_directory + '/Quiz02v2.docx')
+            # quiz_doc = docx.Document(testr.working_directory + '/Quiz02v1.docx')
+            quiz_doc = docx.Document(testr.working_directory + '/Quiz02v2.docx')
             feedback_document.element.body.append(quiz_doc.element.body)
             feedback_document.save(testr.working_directory + '/Feedback.docx')
             tmp_document.add_page_break()
