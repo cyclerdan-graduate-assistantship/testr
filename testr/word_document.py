@@ -64,8 +64,8 @@ class WordDocument(object):
             for run_shell_output in testr.list_of_run_shell_outputs:
                 feedback_document.add_paragraph(run_shell_output.output, None)
             feedback_document.save(testr.working_directory + '/Feedback.docx')
-            if not testr.testr_configuration.test_input_from_cli and len(testr.testr_configuration.test_cases) > 0:
-                os.remove(testr.working_directory + '/out.txt')
+            # if not testr.testr_configuration.test_input_from_cli and len(testr.testr_configuration.test_cases) > 0:
+            #     os.remove(testr.working_directory + '/out.txt')
         except Exception as e:
             print(e)
             created_feedback_document_successfully = False

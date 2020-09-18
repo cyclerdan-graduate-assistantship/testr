@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="be5eb625-5103-43cd-8414-09ce1b42c66c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testr/word_document.py" beforeDir="false" afterPath="$PROJECT_DIR$/testr/word_document.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,7 +17,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="WindowsVersion" />
+        <entry key="$PROJECT_DIR$" value="Fall2020QuizzesWindows" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -75,7 +76,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/driver.py" />
-      <option name="PARAMETERS" value="&quot;D:/JackowitzTesting/Fall2020/Quiz02v1&quot; &quot;Quiz02v1.java&quot; &quot;a&quot; &quot;&quot; &quot;tc0.txt&quot; &quot;n&quot;" />
+      <option name="PARAMETERS" value="&quot;D:/JackowitzTesting/Fall2020/AS02Full&quot; &quot;LoanRepayment.java&quot; &quot;LoanRepaymentModified.java&quot; &quot;&quot; &quot;tc0.txt tc1.txt tc2.txt tc3.txt tc4.txt tc5.txt&quot; &quot;n&quot;" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
@@ -156,7 +157,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Changes for Windows branch" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changes for Windows branch" />
+    <MESSAGE value="Appends documents and quizzes correctly assuming they are named correctly" />
+    <option name="LAST_COMMIT_MESSAGE" value="Appends documents and quizzes correctly assuming they are named correctly" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
