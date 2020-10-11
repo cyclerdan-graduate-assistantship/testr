@@ -174,12 +174,16 @@ class Testr(object):
         self._working_directory = working_directory
         self._comment_files = self._find_comment_files()
         self._path_to_source_file = self._find_path_to_source_file()
+        if "AO" in self._path_to_source_file:
+            self.testr_configuration.test_cases.append("tc2.txt")
         self._path_to_test_file = self._find_path_to_test_file()
         self._compiled_successfully = False;
         self._run_successfully = False;
         self._list_of_compile_shell_outputs = []
         self._list_of_run_shell_outputs = []
         self._run_test()
+        if len(self.testr_configuration.test_cases) == 3:
+            self.testr_configuration.test_cases.pop()
 
     def _find_comment_files(self):
         return File.get_files_in_directory(directory=self.working_directory, file_extension='txt', file_name='202*')
